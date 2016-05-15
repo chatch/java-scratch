@@ -23,6 +23,7 @@
 		<java.version>1.8</java.version>
 		<swagger.version>1.5.8</swagger.version>
 		<swagger-ui.version>2.1.4</swagger-ui.version>
+		<restassured.version>2.9.0</restassured.version>
 	</properties>
 
 	<dependencies>
@@ -46,7 +47,7 @@
 		<dependency>
 			<groupId>org.webjars</groupId>
 			<artifactId>swagger-ui</artifactId>
-			<version>2.1.4</version>
+			<version>${swagger-ui.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -56,7 +57,7 @@
 		<dependency>
 			<groupId>com.jayway.restassured</groupId>
 			<artifactId>rest-assured</artifactId>
-			<version>2.9.0</version>
+			<version>${restassured.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
